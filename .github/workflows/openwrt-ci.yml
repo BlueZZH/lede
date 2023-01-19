@@ -12,10 +12,6 @@ on:
     - cron: 0 20 * * *
   release:
     types: [published]
-
-  push:
-    branches: 
-      - master
     
 permissions:
   contents: read
